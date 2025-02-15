@@ -1,6 +1,7 @@
 # Accident-Prevention-System-
 The IoT-Based Accident Prevention System is an innovative solution designed to enhance road safety by monitoring driver alertness and providing timely interventions in case of drowsiness. This project integrates various IoT devices, including a NodeMCU microcontroller, DC motor, IR sensors, LEDs, a buzzer, a battery, and a GPS/GSM module,  to create a comprehensive system that detects driver fatigue and responds accordingly.
 
+![IMG_20241127_090123](https://github.com/user-attachments/assets/1e992e4e-4293-44cd-81a7-6158361822a1)
 **Components**
 
 NodeMCU: The central microcontroller that processes data from sensors and controls the system's operations.
@@ -20,6 +21,7 @@ GPS/GSM Module: Sends the driver's location via SMS to emergency contacts if the
 **Functionality**
 The system operates as follows:
 
+
 Drowsiness Detection: The IR sensors continuously monitor the driver's eye movements. If the sensors detect signs of drowsiness, the NodeMCU triggers the buzzer and LEDs to alert the driver.
 
 Alert Mechanism: Upon detecting drowsiness, the system first attempts to wake the driver using auditory (buzzer) and visual (LED) signals. This immediate response is crucial for preventing accidents caused by fatigue.
@@ -31,6 +33,10 @@ Emergency Response: If the driver fails to respond to the alerts within a specif
 Enhanced Safety: By actively monitoring driver alertness, the system significantly reduces the risk of accidents caused by drowsiness.
 Real-Time Alerts: Immediate alerts help in preventing potential accidents by waking the driver before it's too late.
 Emergency Communication: The ability to send location-based emergency messages ensures that help can be dispatched quickly in case of an emergency.
+
+![FlowChart](https://github.com/user-attachments/assets/6c8a64fb-0650-495d-87ca-98a2060062a7)
+
+![Flow Diagram](https://github.com/user-attachments/assets/83897acf-928a-40d5-be3e-985921a638ac)
 
 **Conclusion**
 
